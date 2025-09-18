@@ -83,8 +83,14 @@ Run backend:
 ```bash
 npm run dev
 ```
+### 4. Ingest Articles into Qdrant Database  
+To add articles/documents into the Qdrant vector database, run:  
 
-### 4. Frontend Setup  
+```bash
+npm run ingest
+```
+
+### 5. Frontend Setup  
 ```bash
 cd frontend
 npm install
